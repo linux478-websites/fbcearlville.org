@@ -1,8 +1,13 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 function build() {
-  echo "build"
+  echo "Start build"
+  echo -n "..make build folder"
+  mkdir -p ${BUILD_DIR}
+  echo "Done"
 }
+
+source configuration.source
 
 PS3="Select the operation: "
 
