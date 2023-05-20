@@ -62,97 +62,81 @@
         display: inline-block;
         width: 50%;
         margin: 10px 25% 10px 25%;
-}
+      }
 
-/*Alternate colors between even and odd weeks*/
-tr:nth-child(odd) {
+      tr:nth-child(odd) {
         background: #F2F2F2;
-}
-tr:nth-child(even) {
-        background: #CDBB79;
-}
+      }
 
-/*To curve the bottom, we need to curve the
-row and the element.  And each element needs to 
-curve a different corner.*/
-tr:last-child{
+      tr:nth-child(even) {
+        background: #CDBB79;
+      }
+
+      tr:last-child{
         -webkit-border-radius: 25px 25px 0 0;
         border-radius: 0 0 25px 25px;   
-}
-tr:last-child>td:first-child {
+      }
+
+      tr:last-child>td:first-child {
         -webkit-border-radius: 0 0 0 25px;
         border-radius: 0 0 0 25px;      
-}
+      }
 
-tr:last-child>td:last-child{
+      tr:last-child>td:last-child{
         -webkit-border-radius: 0 0 25px 0;
         border-radius: 0 0 25px 0;      
-}
+      }
 
-/*Format the caption
-Use border-radius for just some corners*/
-.cal caption{
+      .cal caption{
         text-transform: uppercase;
         background-color: #666666;
         color:#ffffff;
         font-size: 150%;
         -webkit-border-radius: 25px 25px 0 0;
         border-radius: 25px 25px 0 0;
-}
+      }
 
-/*Format common heading and element attributes*/
-.cal th, .cal td{
+      .cal th, .cal td{
         margin: 2px;
         padding-bottom: 2px;
-}
+      }
 
-/*Format the table headings*/
-th{
+      th {
         text-align: center;
         background: #FFFFFF;
-}
+      }
 
-/*Set the size and alignment for elements*/
-.cal td{
+      .cal td{
         width:75px;
         height:75px;
         vertical-align:top;
+      }
 
-}
-
-/*Format any holidays*/
-.holiday{
+      .holiday{
         margin:0;
         padding:0;
         background-color: #51A39D;
-}
+      }
 
-/*Use a background image*/
-.old{
+      .old{
         padding:0;
         margin: 0;
         background-color: #51A39D;
         color:rgba(0,0,0,.25);
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
-  border-spacing: 0;
-  
-  /*This is the code used in the example*/
-/*      background: url("../imgs/holiday.png") no-repeat;
-*/      
-}
+        background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
+        border-spacing: 0;
+      }
 
-/*By default, hide the appointments*/
-span{
+      span{
         display: block;
         text-align: center;
         color: #800000;
         visibility: hidden;
-}
+      }
 
-/*Show the appointments when the date is clicked on*/
-td:active>span{
+      td:active>span{
         visibility:visible;
-}
+      }
     </style>
   </head>
   <body>
@@ -162,8 +146,10 @@ td:active>span{
         <a href="#top">Home</a>
         <a href="#thisweek">This Week</a>
         <a href="#sermons">Sermons</a>
+        <a href="#outreach">Outreach</a>
         <a href="#calendar">Calendar</a>
         <a href="#resources">Resources</a>
+        <a href="index.html">Tithe</a>
       </nav>
       <h1>
         First Baptist Church of Earlville, NY
@@ -216,13 +202,41 @@ td:active>span{
       <a name="sermons"></a>
       <h2>Sermons</h2>
       <p>
-        <ul>
-	  <li><a href="https://fb.watch/kelsSlaItX/">2023-04-30 - Genesis 3</a></li>
-	  <li><a href="https://www.facebook.com/firstbaptistchurchearlville/videos/268199748882857/">2023-04-23 - </a></li>
-        </ul>
+        <table>
+          <tr>
+            <td><a href="https://youtu.be/FLTj8ACS_Ls">2023-04-30 - Genesis 3</a></td>
+            <td><a href="assets/weekly/2023-18/service.opd"> | slides</a></td>
+            <td><a href="assets/weekly/2023-18/service.docx"> | bulletin</a></td>
+            <td><a href="assets/weekly/2023-18/service.pdf"> | pdf</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://youtu.be/IklwELeqJQQ">2023-04-23 - In the Beginning...</a></td>
+            <td><a href="assets/weekly/2023-17/service.opd"> | slides</a></td>
+            <td><a href="assets/weekly/2023-17/service.docx"> | bulletin</a></td>
+            <td><a href="assets/weekly/2023-17/service.pdf"> | pdf</a></td>
+          </tr>
+          <tr>
+            <td><a href="assets/weekly/2023-16/service.mp4">2023-04-30 - Genesis 3</a></td>
+            <td><a href="assets/weekly/2023-16/service.opd"> | slides</a></td>
+            <td><a href="assets/weekly/2023-16/service.docx"> | bulletin</a></td>
+            <td><a href="assets/weekly/2023-16/service.pdf"> | pdf</a></td>
+          </tr>
+          <tr>
+            <td><a href="assets/weekly/2023-16/service.mp4">2023-04-30 - Genesis 3</a></td>
+            <td><a href="assets/weekly/2023-16/service.opd"> | slides</a></td>
+            <td><a href="assets/weekly/2023-16/service.docx"> | bulletin</a></td>
+            <td><a href="assets/weekly/2023-16/service.pdf"> | pdf</a></td>
+          </tr>
+        </table>
+        <a href="sermons.html">Archive</a>
       </p>
+      <a name="outreach"></a>
+      <h2>Outreach</h2>
       <a name="calendar"></a>
-        <h2>Calendar</h2>
+      <div>Bargin Basket</div>
+      <div>Band of Brothers</div>
+      <div>Sisters of Faith</div>
+      <h2>Calendar</h2>
         <table class="cal">
           <caption>May 2023</caption>
           <thead>
