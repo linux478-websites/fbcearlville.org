@@ -1,0 +1,80 @@
+= fbcearlville.org Documentation
+Michael Phillips <linux478@gmail.org>
+:toc:
+:icons: font
+
+:site-domainname-provider-name: Namecheap
+:site-domainname-provider-url: https://www.namecheap.com/
+:site-email-provider-name: Brevo
+:site-email-provider-url: https://www.brevo.com/
+:site-hosting-provider-name: Digital Ocean
+:site-hosting-provider-url: https://www.digitalocean.com/
+:site-ip: 174.138.49.10
+:site-panal-name: CyberPanel
+:site-panal-url: https://fbcearlville.org:8090/
+:site-url: https://fbcearlville.org/
+:site-users-bandofbrothers-email: bandofbrothers@fbcearlville.org
+:site-users-bandofbrothers-email-url: mailto:{site-users-bandofbrothers-email}
+:site-users-board-email: board@fbcearlville.org
+:site-users-board-email-url: mailto:{site-users-board-email}
+:site-users-events-email: events@fbcearlville.org
+:site-users-events-email-url: mailto:{site-users-events-email}
+:site-users-pastor-email: pastor@fbcearlville.org
+:site-users-pastor-email-url: mailto:{site-users-pastor-email}
+:site-users-pastor-name-first: John 
+:site-users-pastor-name-last: Jablonski
+:site-users-pastor-personal-email-url: mailto:{site-users-pastor-email}
+:site-users-pastor-personal-email: Johnjablonski82002@outlook.com
+:site-users-sistersoffaith-email: sistorsoffaith@fbcearlville.org
+:site-users-sistersoffaith-email-url: mailto:{site-users-sistorsoffaith-email}
+:site-users-webmaster-email: webmaster@fbcearlville.org
+:site-users-webmaster-email-url: mailto:{site-users-webmaster-email}
+:site-users-webmaster-personal-email-url: mailto:{site-users-webmaster-email}
+:site-users-webmaster-personal-email: linux478@gmail.com
+:url-asciidoc-reference: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+:url-wordpress-administrator: https://www.wpbeginner.com/glossary/administrator/
+:url-wordpress-author: https://www.wpbeginner.com/glossary/author/
+:url-wordpress-contributor: https://www.wpbeginner.com/glossary/contributor/
+:url-wordpress-contributor: https://www.wpbeginner.com/glossary/contributor/
+:url-wordpress-editor: https://www.wpbeginner.com/glossary/editor/
+:url-wordpress-subscriber: https://www.wpbeginner.com/glossary/subscriber/
+:site-ticketmaster-url: https://www.eventbrite.com/
+:site-ticketmaster-name: EventBrite
+
+{url-asciidoc-reference}[Asciidoc Reference,window=_blank]
+
+== Wishlist
+
+* change the footer
+
+== Configuration
+
+=== Email Accounts
+
+* {site-users-bandofbrothers-email-url}[{site-users-bandofbrothers-email}] - ministry for men called Band Of Brothers
+* {site-users-board-email-url}[{site-users-board-email}] - the board of the church
+* {site-users-events-email-url}[{site-users-events-email}] - contact for the event provided by the church
+* {site-users-pastor-email-url}[{site-users-pastor-email}] - contact for the current paster
+* {site-users-sistersoffaith-email-url}[{site-users-sistersoffaith-email}] - ministry for women called Sisters in Faith
+* {site-users-webmaster-email-url}[{site-users-webmaster-email}] - contact for the development of the website
+
+[glossary]
+=== Name - Value
+
+[glossary]
+Event Ticket Host:: {site-ticketmaster-url}[{site-ticketmaster-name},window=_blank]
+Domain Register:: {site-domainname-provider-url}[{site-domainname-provider-name},window=_blank]
+Email Provider:: {site-email-provider-url}[{site-email-provider-name},window=_blank]
+Hosting Provider:: {site-hosting-provider-url}[{site-hosting-provider-name},window=_blank]
+Site Panel:: {site-panal-url}[{site-panal-name},window=_blank]
+Site URL:: {site-url}[{site-url}]
+
+== Guides
+
+=== User Roles and Permissions
+
+1. {url-wordpress-administrator}[Administrator,window=_blank]
+1. {url-wordpress-editor}[Editor,window=_blank]
+1. {url-wordpress-author}[Author,window=_blank]
+1. {url-wordpress-contributor}[Contributor,window=_blank]
+1. {url-wordpress-subscriber}[Subscriber,window=_blank]
