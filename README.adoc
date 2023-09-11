@@ -3,43 +3,7 @@ Michael Phillips <linux478@gmail.org>
 :toc:
 :icons: font
 
-:site-domainname-provider-name: Namecheap
-:site-domainname-provider-url: https://www.namecheap.com/
-:site-email-provider-name: Brevo
-:site-email-provider-url: https://www.brevo.com/
-:site-hosting-provider-name: Digital Ocean
-:site-hosting-provider-url: https://www.digitalocean.com/
-:site-ip: 174.138.49.10
-:site-panal-name: CyberPanel
-:site-panal-url: https://fbcearlville.org:8090/
-:site-url: https://fbcearlville.org/
-:site-users-bandofbrothers-email: bandofbrothers@fbcearlville.org
-:site-users-bandofbrothers-email-url: mailto:{site-users-bandofbrothers-email}
-:site-users-board-email: board@fbcearlville.org
-:site-users-board-email-url: mailto:{site-users-board-email}
-:site-users-events-email: events@fbcearlville.org
-:site-users-events-email-url: mailto:{site-users-events-email}
-:site-users-pastor-email: pastor@fbcearlville.org
-:site-users-pastor-email-url: mailto:{site-users-pastor-email}
-:site-users-pastor-name-first: John 
-:site-users-pastor-name-last: Jablonski
-:site-users-pastor-personal-email-url: mailto:{site-users-pastor-email}
-:site-users-pastor-personal-email: Johnjablonski82002@outlook.com
-:site-users-sistersoffaith-email: sistorsoffaith@fbcearlville.org
-:site-users-sistersoffaith-email-url: mailto:{site-users-sistorsoffaith-email}
-:site-users-webmaster-email: webmaster@fbcearlville.org
-:site-users-webmaster-email-url: mailto:{site-users-webmaster-email}
-:site-users-webmaster-personal-email-url: mailto:{site-users-webmaster-email}
-:site-users-webmaster-personal-email: linux478@gmail.com
-:url-asciidoc-reference: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
-:url-wordpress-administrator: https://www.wpbeginner.com/glossary/administrator/
-:url-wordpress-author: https://www.wpbeginner.com/glossary/author/
-:url-wordpress-contributor: https://www.wpbeginner.com/glossary/contributor/
-:url-wordpress-contributor: https://www.wpbeginner.com/glossary/contributor/
-:url-wordpress-editor: https://www.wpbeginner.com/glossary/editor/
-:url-wordpress-subscriber: https://www.wpbeginner.com/glossary/subscriber/
-:site-ticketmaster-url: https://www.eventbrite.com/
-:site-ticketmaster-name: EventBrite
+
 
 {url-asciidoc-reference}[Asciidoc Reference,window=_blank]
 
