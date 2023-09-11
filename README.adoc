@@ -43,6 +43,16 @@ Michael Phillips <linux478@gmail.org>
 
 {url-asciidoc-reference}[Asciidoc Reference,window=_blank]
 
+== Wordpress
+
+=== Plugins
+
+==== Updraftplus
+
+Automatic backups are set to weekly for the website and daily for the database.
+Currently keeping 52 copies for website and 30 for database.
+The remote backups are going to fbcearlville@gmail.com Google Drive.
+
 == Configuration
 
 === Email Accounts
